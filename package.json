@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests": "newman run tests/jenkinstest.postman_collection.json"
+    "api-tests-fail": "newman run tests/jenkinstest.postman_collection.json"
+    "api-tests": "newman run tests/jenkinstest.postman_collectionss.json"
   },
   "repository": {
     "type": "git",
