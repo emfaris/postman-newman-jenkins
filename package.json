@@ -1,11 +1,24 @@
 {
   "name": "postman-newman-jenkins",
   "version": "1.0.0",
-  "description": "Project for storing Postman tests",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
-    "api-tests-production": "newman run tests/jenkinstest.postman_collection"
+    "api-tests": "newman run tests/jenkinstest.postman_collection.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emfaris/postman-newman-jenkins.git"
   },
   "author": "Muhammad Faris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emfaris/postman-newman-jenkins/issues"
+  },
+  "homepage": "https://github.com/emfaris/postman-newman-jenkins#readme",
   "dependencies": {
     "newman": "^5.0.1"
   }
